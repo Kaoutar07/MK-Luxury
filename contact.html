@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cravestay – Luxury Hotel & Resort</title>
+    <!-- favicon  -->
+    <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
+    <!-- faremwork of css -->
+    <link rel="stylesheet" href="assets/css/bootstrap-lib/bootstrap.min.css">
+    <!-- style sheet of css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Responsive sheet of css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- fonts awsome icon link  -->
+    <!-- Link to the Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- slick-slider link css -->
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <!-- animation of css -->
+    <link rel="stylesheet" href="assets/css/aos.css">
+</head>
+
+<body>
+    <div class="site-wrapper">
+         <!-- ======== 1.1. header section ======== -->
+         <header style="background-color: #eeeeee;">
+            <nav class="container navbar navbar-expand-lg ">
+                <div class="container">
+                          <!-- site logo -->
+                          <a class="nav-logo p-0 " href="index.html">
+                            <figure><img src="logo.png" alt="logo"></figure>
+                        </a>
+
+                    <!-- navigation bar manu  -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav d-flex justify-content-center align-items-center gap-lg-4 gap-md-2 gap-sm-2 gap-2 mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                               <a class="dropdown-item" href="services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="dropdown-item" href="contact.html">Contact Us</a>
+                            </li>
+                         
+                        </ul>
+                    </div>
+              
+                   
+
+                    <!-- navigation button  -->
+                    <button class="open-aside" onclick="open_aside()" type="button">
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </nav>
+            <!--===== aside navigation slidebar =====-->
+            <aside>
+                <div id="mySidenav" class="right-sidbar">
+                    <div class="side-nav-logo d-flex justify-content-between align-items-center ps-2 pe-1 nav-logo">
+                        <figure class="navbar-brand">
+                            <a href="index.html">
+                                <img src="logo.png" alt="menulogo">
+                            </a>
+                        </figure>
+                        <button class="fa-solid fa-xmark" onclick="close_aside()"> </button>
+                    </div>
+                    <ul>
+                        <li class="nav-item">
+                            <a class="active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+        </header>
+        <!-- ======== End of 1.1. header section ========  -->
+
+
+        <!-- ======== 11.1. Map section ========  -->
+        <!-- <section class="Map">
+            <h2 class="d-none">lorem is dumy text</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4917.1193047590605!2d4.4690507720313!3d51.96022102967837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5cb67ae23c02d%3A0xdac4c06bc7904d2!2sRododendronplein+10%2C+3053+ES+Rotterdam%2C+Nederland!5e0!3m2!1snl!2ses!4v1541007683407"
+                width="600" height="600" style="border:0" allowfullscreen></iframe>
+        </section> -->
+        <!-- ======== End of 11.1. Map section ========  -->
+        <!-- ========  11.2. Contact section ========  -->
+        <section class="Contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="d-flex flex-column gap-4 h-100 justify-content-lg-center">
+                            <div class="d-flex flex-column gap-md-4 gap-3" data-aos="fade-down">
+                                <h2>How To Find Us</h2>
+                                <div class="d-flex align-items-center text-center">
+                                    <hr>
+                                    <h6>Contact</h6>
+                                    <hr>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do quod eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <ul class="d-flex flex-column gap-md-3 pt-lg-3" data-aos="fade-up">
+                                <li><a href="#">120 Genève, West Lancashire, England</a> </li>
+                                <li><a href="#">T: (+122) 34 5678 9100</a></li>
+                                <li><a href="#">M: <span class="__cf_email__" data-cfemail="31524350475442455048715449505c415d541f525e5c">[email&#160;protected]</span></a></li>
+                            </ul>
+                            <hr>
+                            <div class="d-flex align-items-center gap-3 ms-0" data-aos="zoom-in">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <figure>
+                            <img src="assets/images/contact/contact.webp" alt="contact">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======== End of 11.2. contact section ========  -->
+        <!-- ========  11.3. Staff section ========  -->
+        <section class="Staff mt-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="d-flex flex-column">
+                            <div class="d-flex flex-column gap-md-3 gap-2" data-aos="fade-down">
+                                <h2>Meet the Staff</h2>
+                                <div class="d-flex align-items-center text-center">
+                                    <hr>
+                                    <h6>Contact</h6>
+                                    <hr>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column pt-lg-5 pt-md-4" data-aos="fade-up">
+                                <div class="d-flex align-items-center gap-3">
+                                    <figure>
+                                        <img src="assets/images/contact/daisy.webp" alt="team1">
+                                    </figure>
+                                    <div class="d-flex flex-column gap-1">
+                                        <h5>Daisy Roberts</h5>
+                                        <a href="#">Hotel Manager : <span class="__cf_email__" data-cfemail="d5b1b4bca6ac95bdbaa1b0b9fbb6bab8">[email&#160;protected]</span></a>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center gap-3">
+                                    <figure>
+                                        <img src="assets/images/contact/john.webp" alt="team2">
+                                    </figure>
+                                    <div class="d-flex flex-column gap-1">
+                                        <h5>John Lewis</h5>
+                                        <a href="#">Reception : <span class="__cf_email__" data-cfemail="cba1a4a3a58ba3a4bfaea7e5a8a4a6">[email&#160;protected]</span></a>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center gap-3">
+                                    <figure><img src="assets/images/contact/kate.webp" alt="team3"></figure>
+                                    <div class="d-flex flex-column gap-1">
+                                        <h5>Kate Barnes</h5>
+                                        <a href="#">Hospitality : <span class="__cf_email__" data-cfemail="a3c8c2d7c6e3cbccd7c6cf8dc0ccce">[email&#160;protected]</span></a>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center gap-3">
+                                    <figure><img src="assets/images/contact/evan.webp" alt="team4"></figure>
+                                    <div class="d-flex flex-column gap-1">
+                                        <h5>Evan Erickson</h5>
+                                        <a href="#">Animation : <span class="__cf_email__" data-cfemail="442132252a042c2b3021286a272b29">[email&#160;protected]</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex flex-column" data-aos="fade-down">
+                            <div class="d-flex flex-column gap-3 text-md-start text-center">
+                                <h2>Send A Message</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do quod eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+<<<<<<< HEAD
+                            <form class="" action="https://api.web3forms.com/submit" method="POST">
+                                
+                                <!-- Replace with your Access Key -->
+    <input type="hidden" name="access_key" value="6d9e10e8-aab8-4451-9f92-e0877f0f903c">
+=======
+                            <form class="modal1">
+>>>>>>> 2d1cb8299a0bc55d5f7d5b044b5e9abfd4e8243d
+                                <div class="w-100">
+                                    <input type="text" name="username" placeholder="Name" required>
+                                </div>
+                                <div class="w-100">
+                                    <input type="email" name="useremail" placeholder="Email" required>
+                                </div>
+                                <div class="w-100">
+                                    <textarea name="usermessage" placeholder="Message" required></textarea>
+                                </div>
+                                <div class="w-100 mt-lg-2">
+                                    <button type="submit" class="hover2">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- Success Modal with Animated Checkmark -->
+                <div class="modal fade successModal" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="checkmark">
+                                <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                                    <circle class="check-circle" cx="26" cy="26" r="25" fill="none" />
+                                    <path class="check-path" fill="none" d="M14 27l7 7 16-16" />
+                                </svg>
+                            </div>
+                            <div class="d-flex flex-column align-items-center justify-content-center text-center gap-3">
+                                <h2>Congratulations</h2>
+                                <h4>Subscription Successful!</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Success Modal ended -->
+            </div>
+        </section>
+        <!-- ======== End of 11.3. Staff section ========  -->
+        <!-- ======== 11.4. PerfectRoom section ========  -->
+        <!-- <section class="PerfectRoom">
+            <div class="container">
+                <div class="d-flex flex-column" data-aos="zoom-in">
+                    <h2>Choose the Perfect Room for You</h2>
+                    <div class="d-flex align-items-center text-center w-100">
+                        <hr>
+                        <h6>HIGH STANDARDS OF HOSPITALITY</h6>
+                        <hr>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do quod eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="mt-md-3">
+                        <a href="about.html" class="hover1">Reservation</a>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- ======== End of 11.4. PerfectRoom section ========  -->
+
+
+      <!-- ======== 1.13. footer section ========  -->
+      <footer>
+        <div class="container">
+            <div class="d-flex flex-column px-0">
+                <ul class="d-flex align-items-center justify-content-center">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="d-flex justify-content-center align-items-center gap-1">
+                    <hr>
+                    <figure>
+                        <a href="index.html">
+                            <img src="logo.png" alt="logo">
+                        </a>
+                    </figure>
+                    <hr>
+                </div>
+                <!-- <div class="d-flex justify-content-center gap-lg-4">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"> <i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div> -->
+            </div>
+            <div class="row pt-md-5">
+                <div class="col-lg-4 col-md-4">
+                    <div class="d-flex flex-column gap-4 text-center pt-md-3">
+                        <h5>CONTACT US</h5>
+                        <div class="d-flex flex-column gap-1">
+                            <a href="#">(+122) 34 5678 9100</a>
+                            <a href="#"><span class="__cf_email__"
+                                    data-cfemail="2546574453405651445c65405d55484449400b464a48">[email&#160;protected]</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="d-flex flex-column gap-4 gap-2 text-center pt-md-3 m-0">
+                        <h5>ADDRESS</h5>
+                        <a href="#">120 Genève, West Lancashire, England</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="d-flex flex-column gap-4 gap-2 text-center pt-md-3">
+                        <h5>WORK HOURS</h5>
+                        <div class="d-flex flex-column align-items-center text-center gap-1">
+                            <p class="d-flex align-items-center gap-1">Mon <i class="fa-solid fa-minus"></i> Thu: 10
+                                am <i class="fa-solid fa-minus"></i> 08 pm</p>
+                            <p class="d-flex align-items-center gap-1">Fri <i class="fa-solid fa-minus"></i> Sun: 11
+                                am <i class="fa-solid fa-minus"></i> 09 pm
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center align-items-center mb-0 mt-md-4">
+            <p>Copyright © 2024 MK-LUXURY All right Reserved.</p>
+        </div>
+        <button class="back-to-top">
+            <i class="fa fa-arrow-up"></i>
+        </button>
+    </footer>
+    <!-- ======== End of 1.13. footer section ========  -->
+
+
+    </div>
+
+
+
+    <!-- bootstrap min javascript  -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="assets/js/javascript-lib/bootstrap.min.js"></script>
+    <!-- j Query -->
+    <script src="assets/js/jquery.js"></script>
+    <!-- slick slider js -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- main javascript -->
+    <script src="assets/js/custom.js"></script>
+    <!-- animation from javascript -->
+    <script src="assets/js/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            duration: 1500,
+        });
+    </script>
+
+</body>
+
+</html>
