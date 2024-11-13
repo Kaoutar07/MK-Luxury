@@ -1039,6 +1039,7 @@ header .open-aside {
 
 .OurRoom figure img {
     width: 100%;
+    height: 530px;
     transition: all 0.3s ease-in;
 }
 
