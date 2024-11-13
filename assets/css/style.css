@@ -807,7 +807,7 @@ header .open-aside {
 
 .Hero {
     width: 100%;
-    background-image: url("../images/bg/testimonial.webp");
+    background-image: linear-gradient(rgb(255 255 255 / 70%), rgba(63, 61, 86, 0.7)), url(../images/index/pexels-droosmo-2971385.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -825,13 +825,13 @@ header .open-aside {
 }
 
 .Hero p {
-    color: #000000;
+    color: #ffffff;
     font-size: 14px;
     line-height: 22px;
 }
 
 .Hero h5 {
-    color: #000000;
+    color: #fff;
     margin-top: 25px;
 }
 
@@ -1484,7 +1484,8 @@ header .open-aside {
 .Testimonial {
     position: relative;
     padding: 100px 0px;
-    background: url('../images/bg/testimonial.webp');
+    background: url('');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(63, 61, 86, 0.7)), url(../images/index/pexels-temlyder-5961950.jpg);
     background-size: cover;
     background-position: center;
 }
