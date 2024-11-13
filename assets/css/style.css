@@ -807,7 +807,7 @@ header .open-aside {
 
 .Hero {
     width: 100%;
-    background-image: linear-gradient(rgb(255 255 255 / 70%), rgba(63, 61, 86, 0.7)), url(../images/index/pexels-droosmo-2971385.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.767), rgba(63, 61, 86, 0.7)), url(../images/index/caption.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
