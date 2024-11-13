@@ -342,7 +342,7 @@ span {
 }
 
 .hover1:hover {
-    color: #5ec8d9 !important;
+    color: #3F3D56 !important;
 }
 
 .hover1::before {
@@ -385,8 +385,8 @@ span {
     display: inline-block;
     position: relative;
     overflow: hidden;
-    border: 1px solid #5ec8d9;
-    color: #5ec8d9;
+    border: 1px solid #3F3D56;
+    color: #3F3D56;
     z-index: 1;
     padding: 10px 35px;
     transition: all 0.9s ease;
@@ -421,7 +421,7 @@ span {
     width: 0;
     height: 100%;
     transition: all 0.6s ease;
-    background-color: #5ec8d9;
+    background-color: #3F3D56;
     z-index: -1;
     bottom: 0;
     right: 0;
@@ -429,12 +429,12 @@ span {
 
 .hover2:hover::after {
     width: 100%;
-    background-color: #5ec8d9;
+    background-color: #3F3D56;
     left: 0;
 }
 
 .hover3 {
-    color: #5ec8d9;
+    color: #3F3D56;
     text-decoration: none;
     position: relative;
     transition: color 0.9s ease-in;
@@ -447,7 +447,7 @@ span {
     bottom: 0;
     width: 0;
     height: 2px;
-    background: #5ec8d9;
+    background: #3F3D56;
     transition: width .5s ease-in-out;
 }
 
@@ -456,7 +456,7 @@ span {
 }
 
 .hover3:hover {
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 /* Styling for the Back to Top Button */
@@ -468,7 +468,7 @@ span {
     position: fixed;
     bottom: 40px;
     right: 20px;
-    background-color: #5ec8d9;
+    background-color: #3F3D56;
     color: white;
     border: none;
     font-size: 16px;
@@ -649,8 +649,8 @@ header .open-aside span {
 
 header .open-aside:hover span {
     width: 70px !important;
-    border: 2px solid #5ec8d9;
-    background: #5ec8d9;
+    border: 2px solid #3F3D56;
+    background: #3F3D56;
 }
 
 header .open-aside span:nth-child(1) {
@@ -673,8 +673,8 @@ header aside .fa-xmark {
 }
 
 header aside .fa-xmark:hover {
-    background: #5ec8d9;
-    border: 1px solid #5ec8d9 !important;
+    background: #3F3D56;
+    border: 1px solid #3F3D56 !important;
 }
 
 header aside .fa-caret-down {
@@ -792,7 +792,7 @@ header .dropdown ul li a {
 
 header .dropdown ul li a.active,
 header .dropdown ul li a:hover {
-    background-color: #5ec8d9 !important;
+    background-color: #3F3D56 !important;
 }
 
 header .open-aside {
@@ -914,12 +914,12 @@ header .open-aside {
 }
 
 .Moments h3 {
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .Moments h6 {
     padding: 0px 10px 0px 10px;
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .Moments .mt-lg-3 p {
@@ -931,7 +931,7 @@ header .open-aside {
     width: 60px;
     margin: 0;
     opacity: 1;
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .Moments .my-0 figure {
@@ -982,7 +982,7 @@ header .open-aside {
 
 .OurRoom h6 {
     padding: 0px 10px;
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .OurRoom h2 {
@@ -1013,14 +1013,14 @@ header .open-aside {
 }
 
 .OurRoom span:hover {
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .OurRoom hr {
     width: 60px;
     margin: 0;
     opacity: 1;
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .OurRoom .pe-0 {
@@ -1038,8 +1038,8 @@ header .open-aside {
 }
 
 .OurRoom figure img {
-    width: 100%;
-    height: 530px;
+    width: 92%;
+    height: 430px;
     transition: all 0.3s ease-in;
 }
 
@@ -1086,14 +1086,14 @@ header .open-aside {
 
 .ShowCase .d-flex h6 {
     padding: 0px 10px 0px 10px;
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .ShowCase .d-flex hr {
     width: 60px;
     margin: 0;
     opacity: 1;
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .ShowCase .RoomSlider {
@@ -1116,8 +1116,8 @@ header .open-aside {
     font-size: 0px !important;
     width: 11px !important;
     height: 11px !important;
-    background: #5ec8d9;
-    border: 1px solid #5ec8d9;
+    background: #3F3D56;
+    border: 1px solid #3F3D56;
     border-radius: 10px;
 }
 
@@ -1125,7 +1125,7 @@ header .open-aside {
     width: 14px !important;
     height: 14px !important;
     background: transparent;
-    border: 1px solid #5ec8d9;
+    border: 1px solid #3F3D56;
     top: -1px;
 }
 
@@ -1170,7 +1170,7 @@ header .open-aside {
 
 .Services h6 {
     padding: 0px 10px 0px 10px;
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .Services .mx-0 {
@@ -1182,7 +1182,7 @@ header .open-aside {
     width: 60px;
     margin: 0;
     opacity: 1;
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .Services .m-0 {
@@ -1200,7 +1200,7 @@ header .open-aside {
 .Services h3 {
     padding-top: 30px;
     width: 70%;
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .Services img[alt="key"] {
@@ -1309,14 +1309,14 @@ header .open-aside {
 
 .EasyStay h6 {
     padding: 0px 10px 0px 10px;
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .EasyStay hr {
     width: 60px;
     margin: 0;
     opacity: 1;
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .EasyStay .m-0 {
@@ -1328,7 +1328,7 @@ header .open-aside {
     width: 40%;
     position: absolute;
     bottom: 8%;
-    color: #5ec8d9;
+    color: #3F3D56;
     transform: rotate(-20deg);
 }
 
@@ -1413,7 +1413,7 @@ header .open-aside {
     width: 60px;
     margin: 0;
     opacity: 1;
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .NewsEvents figure {
@@ -1428,23 +1428,23 @@ header .open-aside {
 
 .NewsEvents h6 {
     padding: 0px 10px 0px 10px;
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .NewsEvents span {
-    color: #5ec8d9;
+    color: #3F3D56;
     font-size: 14px;
     line-height: 22px;
 }
 
 .NewsEvents .p-0 i {
     font-size: 12px;
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .NewsEvents .gap-md-3 hr {
     flex-grow: 1;
-    color: #5ec8d9;
+    color: #3F3D56;
     margin: 0;
     opacity: 1;
 }
@@ -1593,7 +1593,7 @@ header .open-aside {
 
 .Newsletter h6 {
     padding: 0px 10px 0px 10px;
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .Newsletter h2 {
@@ -1605,7 +1605,7 @@ header .open-aside {
     width: 60px;
     margin: 0;
     opacity: 1;
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .Newsletter p {
@@ -1644,7 +1644,7 @@ header .open-aside {
 
 .Newsletter button {
     border: none;
-    color: #5ec8d9;
+    color: #3F3D56;
     padding: 0px 0px 8px;
     background: transparent;
     display: flex;
@@ -1688,7 +1688,7 @@ header .open-aside {
     display: flex;
     align-items: center;
     gap: 16px;
-    color: #5ec8d9;
+    color: #3F3D56;
     transition: all 0.3s ease-in;
 }
 
@@ -1713,7 +1713,7 @@ header .open-aside {
 /* ========= 1.13. Footer section ========= */
 
 footer {
-    background-color: #a7a24d;
+    background-color: #3F3D56;
     padding-top: 100px;
 }
 
@@ -1781,7 +1781,7 @@ footer .m-0 {
 }
 
 footer .gap-lg-4 a:hover {
-    background: #5ec8d9;
+    background: #3F3D56;
 }
 
 footer .text-center h5 {
@@ -1925,7 +1925,7 @@ footer .text-center p i {
 }
 
 .AboutMoments h3 {
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .AboutMoments .modal-dialog {
@@ -1998,12 +1998,12 @@ footer .text-center p i {
 }
 
 .OurGoals h6 {
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .OurGoals hr {
     width: 60px;
-    color: #5ec8d9;
+    color: #3F3D56;
     margin: 0px;
     opacity: 1;
 }
@@ -2027,7 +2027,7 @@ footer .text-center p i {
 
 .OurGoals h3 {
     width: 80%;
-    color: #5ec8d9;
+    color: #3F3D56;
     position: absolute;
     bottom: 30px;
     left: 26%;
@@ -2043,11 +2043,11 @@ footer .text-center p i {
 }
 
 .Glimpse h6 {
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .Glimpse hr {
-    color: #5ec8d9;
+    color: #3F3D56;
     opacity: 1;
     margin: 0px;
     width: 80px;
@@ -2079,7 +2079,7 @@ footer .text-center p i {
 }
 
 .Rates h6 {
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .Rates h2 {
@@ -2092,7 +2092,7 @@ footer .text-center p i {
 
 .Rates hr {
     width: 60px;
-    color: #5ec8d9;
+    color: #3F3D56;
     margin: 0px;
     opacity: 1;
 }
@@ -2142,7 +2142,7 @@ footer .text-center p i {
 
 .Rates ul li i {
     font-size: 16px;
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .Rates ul li p {
@@ -2245,7 +2245,7 @@ footer .text-center p i {
 }
 
 .FAQS h6 {
-    color: #5ec8d9;
+    color: #3F3D56;
     padding: 0px 10px;
 }
 
@@ -2253,7 +2253,7 @@ footer .text-center p i {
     width: 60px;
     opacity: 1;
     margin: 0px;
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .FAQS .accordion-body p {
@@ -2400,7 +2400,7 @@ footer .text-center p i {
 }
 
 .BeachFront p a:hover {
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .BeachFront span {
@@ -2411,7 +2411,7 @@ footer .text-center p i {
 }
 
 .BeachFront span:hover {
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .BeachFront .gap-3 img {
@@ -2452,7 +2452,7 @@ footer .text-center p i {
 }
 
 .BeachFront .pt-lg-5 a:hover p {
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .BeachFront .pt-lg-5 hr {
@@ -2504,7 +2504,7 @@ footer .text-center p i {
 }
 
 .BeachFront .justify-content-center a:hover {
-    background: #5ec8d9;
+    background: #3F3D56;
     color: #ffffff;
 }
 
@@ -2526,7 +2526,7 @@ footer .text-center p i {
 }
 
 .SpecialMenu span {
-    color: #5ec8d9;
+    color: #3F3D56;
     font-size: 14px;
     line-height: 22px;
 }
@@ -2559,7 +2559,7 @@ footer .text-center p i {
 }
 
 .SpecialMenu hr {
-    color: #5ec8d9;
+    color: #3F3D56;
     margin: 40px 0px 30px;
     opacity: 1;
     width: 100%;
@@ -2687,7 +2687,7 @@ footer .text-center p i {
 }
 
 .SpecialMenu .p-0 i {
-    color: #5ec8d9;
+    color: #3F3D56;
     font-size: 12px;
     position: relative;
     top: -1px;
@@ -2749,14 +2749,14 @@ footer .text-center p i {
 }
 
 .Amenities hr {
-    color: #5ec8d9;
+    color: #3F3D56;
     width: 60px;
     margin: 0px;
     opacity: 1;
 }
 
 .Amenities h6 {
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .Amenities h2 {
@@ -2783,7 +2783,7 @@ footer .text-center p i {
 }
 
 .Amenities .m-0:hover {
-    border: 1px solid #5ec8d9;
+    border: 1px solid #3F3D56;
     background: #D4D2E9;
 }
 
@@ -2833,14 +2833,14 @@ footer .text-center p i {
 
 .Contact h6 {
     padding: 0px 10px 0px 10px;
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .Contact .gap-md-4 hr {
     width: 60px;
     margin: 0;
     opacity: 1;
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .Contact .justify-content-lg-center {
@@ -2871,7 +2871,7 @@ footer .text-center p i {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #5ec8d9;
+    color: #3F3D56;
     border-radius: 50%;
     border: 1px solid #3F3D56;
     box-shadow: 0px 5px 15px 0px #3F3D5626;
@@ -2880,11 +2880,11 @@ footer .text-center p i {
 
 .Contact .ms-0 a:hover {
     color: #ffffff;
-    background-color: #5ec8d9;
+    background-color: #3F3D56;
 }
 
 .Contact .pt-lg-3 a:hover {
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .Contact figure {
@@ -2906,7 +2906,7 @@ footer .text-center p i {
 
 .Staff h6 {
     padding: 0px 10px 0px 10px;
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .Staff h5,
@@ -2923,7 +2923,7 @@ footer .text-center p i {
     width: 60px;
     margin: 0;
     opacity: 1;
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .Staff .pt-lg-5 {
@@ -2938,7 +2938,7 @@ footer .text-center p i {
 }
 
 .Staff .gap-3:hover .gap-1 a {
-    color: #5ec8d9;
+    color: #3F3D56;
 }
 
 .Staff .gap-3 img {
