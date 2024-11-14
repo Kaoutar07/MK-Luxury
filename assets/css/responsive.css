@@ -1814,9 +1814,10 @@
     }
 }
 
+
 @media screen and (max-width: 767px) {
     .Contact {
-        padding: 50px 0px;
+        padding: 210px 0px;
     }
     .Contact .row {
         row-gap: 40px;
